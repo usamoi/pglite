@@ -84,6 +84,16 @@ _PostmasterContext
 _MessageContext
 _CurTransactionContext
 __ZTVN10__cxxabiv117__class_type_infoE
+___cxa_find_matching_catch_2
+___resumeException
+___cxa_find_matching_catch_4
+_llvm_eh_typeid_for
+_posix_memalign
+_pthread_mutex_trylock
+___cxa_begin_catch
+___cxa_end_catch
+___cxa_allocate_exception
+_emscripten_builtin_malloc
 """.splitlines():
     if sym and not sym in matches:
         matches.append(sym)
