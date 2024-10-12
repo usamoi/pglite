@@ -202,7 +202,7 @@ _________________________________________________________
      -fPIC -D__PYDK__=1 -DPREFIX=${PGROOT} \
      -sALLOW_TABLE_GROWTH -sALLOW_MEMORY_GROWTH -sERROR_ON_UNDEFINED_SYMBOLS -sASSERTIONS=0 \
      -lnodefs.js -lidbfs.js \
-     -sEXPORTED_RUNTIME_METHODS=FS,setValue,getValue,UTF8ToString,stringToNewUTF8,stringToUTF8OnStack,ccall,cwrap,callMain \
+     -sEXPORTED_RUNTIME_METHODS=FS,setValue,getValue,UTF8ToString,stringToNewUTF8,stringToUTF8OnStack,ccall,cwrap,callMain,___cxa_find_matching_catch_2,___resumeException,___cxa_find_matching_catch_4,_llvm_eh_typeid_for,_posix_memalign,_pthread_mutex_trylock,___cxa_begin_catch,___cxa_end_catch,___cxa_allocate_exception,_emscripten_builtin_malloc,__emscripten_memcpy_js \
      $PGPRELOAD \
      -o postgres.html $PG_O $PG_L || exit 200
 
