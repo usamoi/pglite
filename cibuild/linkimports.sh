@@ -83,6 +83,7 @@ _PortalContext
 _PostmasterContext
 _MessageContext
 _CurTransactionContext
+__ZTVN10__cxxabiv117__class_type_infoE
 """.splitlines():
     if sym and not sym in matches:
         matches.append(sym)
