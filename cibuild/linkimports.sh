@@ -72,6 +72,17 @@ _shmem_request_hook
 _shmem_startup_hook
 _stderr
 _TopMemoryContext
+_MemoryContextRegisterResetCallback
+_IsBinaryCoercible
+_GetCurrentTransactionId
+_SPI_execute_with_args
+_SPI_cursor_open_with_args
+_GetCurrentTransactionIdIfAny
+_ErrorContext
+_PortalContext
+_PostmasterContext
+_MessageContext
+_CurTransactionContext
 """.splitlines():
     if sym and not sym in matches:
         matches.append(sym)
